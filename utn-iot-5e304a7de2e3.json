@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "utn-iot",
+  "private_key_id": "5e304a7de2e360a133c7dc1792e33aeae9d6f114",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCVYoCKH6wNTZ7J\nOZZ11roHoq3VpWTKlLDmy7Ul8hHyF/sicu48PmGe0NQoDYtcpXgpR/oXloyZi8hp\nZWS2Fkcz+Zu4zhnc83GLO5xonEg6BuTSGRcWEfO+e7rrbhvBANvBvGLgyTznaseD\nSBkJsdrPEQGRKR1rF8da3mxh3DmLza+9qnf4lEsh1ryiY6rEKqDsT6zfi8VZyfVh\nfi3wNboPuoYP+kUQskPMh4ndsuE48ARf2OM8CL6qrF1xA8j0X4SaR9NO22ESdFHw\nKhLwi3dwq0rZQNJeVUDiIsAYnRMucKrGrQEepXWNwu8UwW/8dwcVQa1pgkx5vQ28\nDP4o4MrdAgMBAAECggEAKiqiw9pK03p8fqpduSeCXVNjJDJKcBBmms8Xc/2PaTmx\nrrioXKLzJUQnDqM8GkuuzmA9zNi3GURmrrFrKybAtIAZn6G1lTO2cinCbZjnnlGB\n13gzlww8NCFy0q/C78jRPy9w7aiAI4Z1iK4aOy1T6S0QtyvW3PraT+EG0Ny79aUL\n/hqZqLhlxDp6NiggHu1uCE/bcqAGnbJDh9V7XXpNw5+g8BEi6Hyjan0Oe41MLWzh\nRXwW2yfPj3gwYcruPlUWEur0FO0obBbbntojMejnoCLKByAX5chEIokABDDqfRD3\na6+uNhYaqw/G+4menNtmGr6z3kZJkTm557HMTRP1FQKBgQDQVa+8x6tHm3PSIypB\ngb+Ues8Zxl4hzC5mZRpa65xKAgQjiiZQbWtc6r2uvGE3OHXNq70OXWV8obxnruZK\ns/WT4x92mBanVG4O2Wrw2GL0oGq73ycz4iu4MR9rgS1IsZt8hvHxJ5J0uHEptNjt\norqPvVgDYrmxkVOHpRjNDjQUJwKBgQC3kBNP063KrmPvGLCEGwai6fRvP+8Aidhg\nQGuVwU6RTwZu7SVTrC5zUG9vX99Y5dLQAJp6QFCoy98CgPyLAdTISvsmyWDHSW41\nK9cIIe1JzEZXPH71bz+ipDz15DbO3+yviKid8DvNhHtpItgUqMgzq7VDRnsAIUjj\n/hOCMzT3WwKBgFkKZkO+6tt9+zByyxqYQ7NIEb+oYo77X1FwIKV/UZrn5bDy2JFD\nUsGxqkRGSx54yRCQOAstq7Rqw8VkoRSIeYstZUMgmX4Gvcsm7Wfmc9StwzBsnaq1\nHY5poE4oNZx+HEBKxJkXGqc8NVFn89cM18ObX0SDK25S+GpfC4yIZ4W9AoGASENn\n1t02ZbwRi2bk1pztF+WSXNmGdWfOztWNhP78tyetGK4zK6V1A+B+fhH4Ez8mpswW\nBFqdZlYcDRhKU079PXyHMtXES7AUusnvdTwl9g99AYrHUEfjfVu6w/J7wSVWQCRE\nfSi94kJtcw5MkpV/exf12+47LenskBTOCUuvZlECgYEAu3eeiuTkYkFosqsZYEMr\nSI35Z9+53sdpYu4VxntrQ58lsEM0SXNCp8xDR99+9vj2DacXfIxemCnnuqxgcPTM\nyH1BLl5S6aWanNoBkNsDyy0cu1/6tjK2b0vRleRdZ7DA0mNKfZcwqvCe+GC51et+\nz6bJhcQdN8FzXQzWRMYIIiE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "api-semilleros@utn-iot.iam.gserviceaccount.com",
+  "client_id": "104908906417337576244",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/api-semilleros%40utn-iot.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

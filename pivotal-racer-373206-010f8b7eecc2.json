@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pivotal-racer-373206",
+  "private_key_id": "010f8b7eecc27a888356650c3d068478180f20f3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHy81ahP1kAZp5\nUCdC90Un5ixwnd++QcWxglopPaNixEv5J6dtX4BlbLGerE0dLd67JmYRjmfwcYpV\nftB70xBgIjQ/Q32PYBJnxeBF6pJo+QIVUyLQVyX1LTsxV7ijie35VfTDYirxgtQ5\n4qweDiJPRdmrhzgLQbv9LTNBlRQo5FlRQfBs9ZBQtQQTpWdE0qDTDsC9G3ICob3Q\n+MQhXDh3WTIMytoznm8wHYN3e4PyioZm3a0ldIsQcmR3iXOhFuNDpHfNYC5l3aRW\nwAhGJ6hOBTkd31+iMYteqpjxmKPyYl/QvZW+gxkRKTK/tg1/8tKytiJe53MvqSrI\ny5xtf5PHAgMBAAECggEAHvrZArowWDtvanQlQlr5HDCyn1u7f9LPBrFBrbdjCEOL\nzDx715fBXvi1qfbpliawrLBNj1dXgo74dj1NsoWNunpTQ6QBaiPpdrHWDsFKpoBF\n9GyJr2hz+EplLUd+18zhW5Iae9lS81Pn+HnPWnGynDwmflRfOk+dCKrjkb29/ID1\nvXGEGRqE+q8MrpzO+guDW01DPr4ePhE96vCn9YBHnj02Fg+pHydU1PbeMD/XtAFy\npgO55v1voZh6ft+/E6/NXpnEW496Bz+I9joLJTNSOvOZ7oIgyuXsH2ecRLh9wC94\nhQPqDP7GNYM4UUwqKDcFcAaugevBmyD5NmqSwPswwQKBgQDjND2D38yM+SUBsXZZ\n2z7f1qTJl5yeBPSWMrRvQk50Mqs+pezXdbhqZVdLEmqfoKCO/rVkP73S8FeNEl3w\nlSiE4he0gwzczhFFLsMZNqQ7VLbEnQ4sIY8YxOAuoOyuGyw9WaocXV8yHkY7mCOn\nGMoKTQCllheJwqP+6krrx7W/EQKBgQDhHkutobOEF7m+OQh4AMQ89b9nDHiBW1pS\n/nxJBvOjwfaLrhDeWByili5iibG31b1CcR3Bsxg/IMHPmh4CofOuyI5Z2qD4ch9M\nUZRnPrYTYnYvhmiFc3dk6c6OFEr1rCcnI3p7bBpmT88Eiysggtc4X8K5lRybnGqv\no1uHF5tVVwKBgCTXfL4clSuq3sBWiW1qqthbEt+JkSDihtKwKCf+ZYBcEv6Wo0AQ\n27WM90m6E8YMotxtGvbFiz9gL6I1fzwaw7ZAfz2LHpPTamOAgKxe+uSQCQ76tKid\nTHnkusF04Mwepd7Q4k+1KFGVLShOtEFNOL3Q3LD9FJYHFNaqITn4aVUxAoGAQfD6\n4AB2siG1Adh495XZ5bVifI/1mIam3Zq30zhbE8PUMTQqssaClMmDCtAko6HTT2wM\n+Fk6p/szallNox3HYJJUyFM3Ra9AJb3bx6Zh9SmpTuCDK1wYRBIMtCeTkYT87wUA\ncrjGvuNv03fkiSBqZJQAWRYpjBd0VMB4JgkvMf8CgYEApHyvJmmppRwO7F/SwPgz\nDAM5NG1X7vwt5afdQPbHbIxYLrjU71aQx9J1L2M1n3QbYvxK2wjjKFe3XlJ6dmbx\n9h1Zt3/MoeRdNLSkom6OCMn5+aAwbOVGPJ9W6qxKnWfrTpCF29k6u60ljx2xWQEP\nHHm9qEqGAi+uhbeXca1wFas=\n-----END PRIVATE KEY-----\n",
+  "client_email": "visionapi@pivotal-racer-373206.iam.gserviceaccount.com",
+  "client_id": "106756403625762795408",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/visionapi%40pivotal-racer-373206.iam.gserviceaccount.com"
+}
