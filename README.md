@@ -1,2 +1,2 @@
-# UTN_Semilleros
-Proyecto de detección de emociones
+# EmoSense
+Sistema de detección de emociones
