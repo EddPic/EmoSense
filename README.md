@@ -1,2 +1,2 @@
 # EmoSense
-Sistema de detección de emociones
+Sistema de Detección de Emociones
