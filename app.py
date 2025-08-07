@@ -23,8 +23,7 @@ import fpdf
 from pdf2image import convert_from_path
 
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r'utn-iot-5e304a7de2e3.json'
-
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r'utn-5e3a7d2e.json'
 
 customtkinter.set_appearance_mode("dark")
 customtkinter.set_default_color_theme("dark-blue")
@@ -38,12 +37,9 @@ tcaptura=5
 
 """MQTT"""
 
-# mqttBroker= "192.168.137.204"
+# mqttBroker= "192.168.x.x"
 # max30100 = "esp32/heartrate"
 # gsr = "esp32/gsr"
-
-
-
 
 #def on_message(client, userdata, message):
 #    global datagsr,databpm
@@ -82,14 +78,14 @@ def Photo():
     for i in range(1,numdatos):
         sleep(tcaptura)
         camera.resolution = (1280, 720)
-        camera.capture('/home/equipo7/Desktop/ProyectoIoT/Google-Recognition-master/Imagenes/Image%s.jpg' % i)
+        camera.capture('/Imagenes/Image%s.jpg' % i)
         timedata=datetime.now()
         registro=timedata.strftime("%H:%M:%S")
         timelist.append(registro)
 #         gsrlist.append(datagsr)
 #         bpmlist.append(databpm)
         
-        dirfile='/home/equipo7/Desktop/ProyectoIoT/Google-Recognition-master/Imagenes/Image%s.jpg' % i
+        dirfile='/Imagenes/Image%s.jpg' % i
         #print(dirfile)
     
         imagephoto=customtkinter.CTkImage(Image.open(dirfile),size=(450,450))
@@ -100,7 +96,7 @@ def Photo():
     camera.close()
     
     #Carpeta Picamera
-    images_dir="/home/equipo7/Desktop/ProyectoIoT/Google-Recognition-master/Imagenes"
+    images_dir="/Imagenes"
     #Carpeta Pruebas
     #
 # 16_revelof
@@ -160,10 +156,8 @@ def deteccion(photodir):
     response = client.face_detection(image=image)
     faces = response.face_annotations
         
-    likelihood_name = ('UNKNOWN', 'VERY_UNLIKELY', 'UNLIKELY', 'POSSIBLE',
-                       'LIKELY', 'VERY_LIKELY')
+    likelihood_name = ('UNKNOWN', 'VERY_UNLIKELY', 'UNLIKELY', 'POSSIBLE', 'LIKELY', 'VERY_LIKELY')
     #print('Deteccion de Emocion:')
-    
     
     d_emociones={'Enojo':'','Alegria':'','Sorpresa':'', 'Tristeza':''}
     respuesta=''
@@ -211,8 +205,8 @@ def screen3():
     frame3 = customtkinter.CTkFrame(master=root,fg_color=("#222222"))
     frame3.pack(pady=20, padx=20, fill="both", expand=True)
     
-    r_arrow=customtkinter.CTkImage(Image.open("arrowr.png"),size=(20,20))
-    l_arrow=customtkinter.CTkImage(Image.open("arrowl.png"),size=(20,20))
+    r_arrow=customtkinter.CTkImage(Image.open("/assets/arrowr.png"),size=(20,20))
+    l_arrow=customtkinter.CTkImage(Image.open("/assets/arrowl.png"),size=(20,20))
     
     btnArrowL = customtkinter.CTkButton(master=frame3,image=l_arrow, text="", fg_color=("#f25042"),hover_color=("#de746a"))
     btnArrowL.place(relx=0.3, rely=0.95, anchor="center")
@@ -221,7 +215,7 @@ def screen3():
     btnBack = customtkinter.CTkButton(master=frame3, text="Regresar", command=forget2, fg_color=("#f25042"),hover_color=("#de746a"))
     btnBack.place(relx=0.15, rely=0.05, anchor="center")
     
-    dirfile="/home/equipo7/Desktop/ProyectoIoT/Google-Recognition-master/Conversion/"
+    dirfile="/Conversion/"
     
     imagepdf=customtkinter.CTkImage(Image.open(dirfile+"page0.jpg"),size=(450,650))
     labelpdf = customtkinter.CTkLabel(master=frame3,image=imagepdf,text="",width=450,height=650,fg_color=("transparent"))
@@ -358,7 +352,7 @@ label.pack(pady=12, padx=10)
 
 """Logo de la Universidad"""""
 
-logo=customtkinter.CTkImage(Image.open("/home/equipo7/Desktop/ProyectoIoT/Google-Recognition-master/UTN.png"),size=(150,150))
+logo=customtkinter.CTkImage(Image.open("/assets/UTN.png"),size=(150,150))
 label = customtkinter.CTkLabel(master=frame,image=logo,text="",width=200,height=200,fg_color=("transparent"))
 label.place(relx=0.5, rely=0.3, anchor="center")
 
@@ -389,7 +383,7 @@ sessionentry.place(relx=0.7, rely=0.7, anchor="center")
 
 """Botón Terapia"""
 
-#cameraicon=customtkinter.CTkImage(Image.open("/home/Equipo7/Desktop/ProyectoIoT/Google-Recognition-master/icon-camera.png"),size=(40,40))
+#cameraicon=customtkinter.CTkImage(Image.open("/assets/icon-camera.png"),size=(40,40))
 button = customtkinter.CTkButton(master=frame, text="Iniciar Terapia", command=verificacion, fg_color=("#f25042"),hover_color=("#de746a"))
 button.place(relx=0.5, rely=0.9, anchor="center")
 
